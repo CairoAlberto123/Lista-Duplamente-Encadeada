@@ -54,10 +54,10 @@ Clone o repositório:
 https://github.com/CairoAlberto123/Lista-circular-duplamente-encadeada-Generica.git
 
 
-Compile e execute o código:    
-
-```bash
-// -o2 otimização do codigo aumenta o tempo de compilação, -march=native Usa as instruções específicas do seu processador, ambas são opcionais       
+**Compile e execute o código:**    
+-o2 otimização do codigo: aumenta o tempo de compilação; 
+-march=native Usa as instruções específicas do seu processador, ambas são opcionais
+```bash       
 g++ -std=c++11 -O2 -march=native ListaGenericaDE.cpp -o executavel
 ./executavel
 ```
